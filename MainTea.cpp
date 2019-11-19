@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using std::cout;
 // simple TEA implementation
 void menu() { //menu 
     int choice = 0;
