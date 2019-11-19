@@ -1,4 +1,4 @@
-#include <iosteam>
+#include <iostream>
 using namespace std;
 // simple TEA implementation
 void menu() { //menu 
