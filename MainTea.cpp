@@ -48,7 +48,9 @@ void decrypt(unsigned long k[], unsigned long text[]) { // same as encryption bu
 		z -= ((y << 4) + k[2]) ^ (y + sum) ^ ((y >> 5) + k[3]);
 	}
 	text[0] = y, text[1] = z;
-	writetofile(text, k);
+
+	std::cout << text;
+//writetofile(text, k);
 
 }
 
